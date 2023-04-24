@@ -121,7 +121,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d768a351ea1f1c0449103c1a5b3872ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.0009
+  letterPrefab: {fileID: 8236348309823215352, guid: 638c66988864f7e4f8ebd3ec533e0c8d, type: 3}
+  letterSpawnPoint: {fileID: 0}
 --- !u!61 &7733368645073897943
 BoxCollider2D:
   m_ObjectHideFlags: 0

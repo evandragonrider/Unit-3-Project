@@ -42,7 +42,7 @@ public class WordDisplay : MonoBehaviour
     
     private void Update()
     {
-         if (enemy != null)
+        if (enemy != null)
     {
         // Set position of WordDisplay object to be same as enemy position
         transform.position = enemy.transform.position - new Vector3(0f, 0.5f, 0f);
