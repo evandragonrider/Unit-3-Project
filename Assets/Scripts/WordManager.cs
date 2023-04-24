@@ -9,12 +9,6 @@ public class WordManager : MonoBehaviour
     private bool hasActiveWord;
     private Word activeWord;
 
-    private void Start()
-    {
-        AddWord();
-        AddWord();
-        AddWord();
-    }
 
     public WordDisplay AddWord()
     {
@@ -26,7 +20,7 @@ public class WordManager : MonoBehaviour
 
         Word word = new Word(newWord, wordDisplay);
         words.Add(word);
-
+        Debug.Log("addWord called");
         return wordDisplay;
     }
 
