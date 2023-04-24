@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1Script : EnemyScript
+public class Enemy2Script : EnemyScript
 {
-   void Start()
+    void Start()
     {
         // Set the speed for this enemy
-        SetSpeed(0.001f);
+        SetSpeed(0.01f);
     }
     // Start is called before the first frame update
     public override float GetSpeed()
